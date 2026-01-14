@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: KitLeads – Grand Slam Lead Magnets for Kit.com
- * Plugin URI: https://leadleads.io
+ * Plugin URI: https://github.com/fahdi/kitleads-lead-magnet
  * Description: Capture high-value leads with Grand Slam magnets. A lightweight Kit.com (ConvertKit) integration for WordPress.
  * Version: 1.0.0
- * Author: LeadLeads Team
- * Author URI: https://leadleads.io
+ * Author: Fahad Murtaza
+ * Author URI: https://github.com/fahdi
  * License: GPLv2 or later
  * Text Domain: kitleads-lead-magnet
  */
