@@ -103,8 +103,8 @@ class LeadCrafter
                             <p class="description">
                                 <?php esc_html_e('Found in your Kit.com account settings under API.', 'leadcrafter-lead-magnets'); ?>
                                 <br>
-                                <a href="https://app.convertkit.com/account_settings/advanced_settings" target="_blank" rel="noopener">
-                                    <?php esc_html_e('→ Go to Kit.com API Settings', 'leadcrafter-lead-magnets'); ?>
+                                <a href="https://app.kit.com/account_settings/developer_settings" target="_blank" rel="noopener">
+                                    <?php esc_html_e('→ Go to Kit.com Developer Settings', 'leadcrafter-lead-magnets'); ?>
                                 </a>
                                 <span style="color: #666; font-size: 11px;">
                                     <?php esc_html_e('(opens in new tab)', 'leadcrafter-lead-magnets'); ?>
@@ -120,20 +120,20 @@ class LeadCrafter
                             <input type="text" name="leadcrafter_form_id"
                                 value="<?php echo esc_attr(get_option('leadcrafter_form_id')); ?>" class="regular-text" />
                             <p class="description">
-                                <?php esc_html_e('The numeric ID of your Kit.com landing page or form.', 'leadcrafter-lead-magnets'); ?>
+                                <?php esc_html_e('The numeric ID of your Kit.com form.', 'leadcrafter-lead-magnets'); ?>
                                 <br>
                                 <strong><?php esc_html_e('Find your Form ID:', 'leadcrafter-lead-magnets'); ?></strong>
                                 <br>
-                                <a href="https://app.convertkit.com/landing_pages" target="_blank" rel="noopener">
-                                    <?php esc_html_e('→ Go to Kit.com Landing Pages', 'leadcrafter-lead-magnets'); ?>
-                                </a>
-                                <?php esc_html_e(' or ', 'leadcrafter-lead-magnets'); ?>
-                                <a href="https://app.convertkit.com/forms" target="_blank" rel="noopener">
-                                    <?php esc_html_e('→ Go to Kit.com Forms', 'leadcrafter-lead-magnets'); ?>
+                                1. <a href="https://app.kit.com/forms" target="_blank" rel="noopener">
+                                    <?php esc_html_e('Go to Kit.com Forms', 'leadcrafter-lead-magnets'); ?>
                                 </a>
                                 <br>
+                                2. <?php esc_html_e('Click on your form to edit it', 'leadcrafter-lead-magnets'); ?>
+                                <br>
+                                3. <?php esc_html_e('Copy the ID number from the URL (e.g., 8953939 from /forms/designers/8953939/edit)', 'leadcrafter-lead-magnets'); ?>
+                                <br>
                                 <span style="color: #666; font-size: 11px;">
-                                    <?php esc_html_e('(Look for the ID number in the URL or form list)', 'leadcrafter-lead-magnets'); ?>
+                                    <?php esc_html_e('(The Form ID is the number in the URL path)', 'leadcrafter-lead-magnets'); ?>
                                 </span>
                             </p>
                         </td>
@@ -164,19 +164,19 @@ class LeadCrafter
                         <strong><?php esc_html_e('Get your Kit.com API Secret:', 'leadcrafter-lead-magnets'); ?></strong>
                         <br>
                         <?php esc_html_e('Visit', 'leadcrafter-lead-magnets'); ?> 
-                        <a href="https://app.convertkit.com/account_settings/advanced_settings" target="_blank" rel="noopener">
-                            <?php esc_html_e('Kit.com API Settings', 'leadcrafter-lead-magnets'); ?>
+                        <a href="https://app.kit.com/account_settings/developer_settings" target="_blank" rel="noopener">
+                            <?php esc_html_e('Kit.com Developer Settings', 'leadcrafter-lead-magnets'); ?>
                         </a> 
                         <?php esc_html_e('and copy your API Secret', 'leadcrafter-lead-magnets'); ?>
                     </li>
                     <li style="margin-top: 10px;">
                         <strong><?php esc_html_e('Find your Form ID:', 'leadcrafter-lead-magnets'); ?></strong>
                         <br>
-                        <?php esc_html_e('Go to your', 'leadcrafter-lead-magnets'); ?> 
-                        <a href="https://app.convertkit.com/forms" target="_blank" rel="noopener">
+                        <?php esc_html_e('Go to', 'leadcrafter-lead-magnets'); ?> 
+                        <a href="https://app.kit.com/forms" target="_blank" rel="noopener">
                             <?php esc_html_e('Kit.com Forms', 'leadcrafter-lead-magnets'); ?>
-                        </a> 
-                        <?php esc_html_e('and note the ID number (visible in URL or form list)', 'leadcrafter-lead-magnets'); ?>
+                        </a>, 
+                        <?php esc_html_e('click your form, and copy the ID from the URL path', 'leadcrafter-lead-magnets'); ?>
                     </li>
                     <li style="margin-top: 10px;">
                         <strong><?php esc_html_e('Add the shortcode:', 'leadcrafter-lead-magnets'); ?></strong>
