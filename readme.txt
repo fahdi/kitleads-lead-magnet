@@ -3,12 +3,12 @@ Contributors: fahdi
 Tags: email marketing, convertkit, lead magnets, marketing automation, email marketing tools
 Requires at least: 5.0
 Tested up to: 6.9
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Craft high-converting lead magnets like a pro! Multi-service lead magnet platform with Grand Slam methodology, starting with Kit.com (ConvertKit) integration.
+Craft high-converting lead magnets like a pro! AJAX-powered forms with Kit.com integration for creators and marketers.
 
 == Description ==
 
@@ -46,6 +46,12 @@ In your Kit.com account under Settings > API.
 2. **Value-First Form** - The clean, conversion-focused default magnet.
 
 == Changelog ==
+
+= 1.2.1 =
+* **CRITICAL BUG FIXES**: Fixed fatal error preventing plugin activation
+* **Fixed**: Return type hint in LeadCrafter_Bridge class (was still referencing old class name)
+* **Fixed**: JavaScript localization timing - moved wp_localize_script to proper location
+* **Improved**: Plugin now activates without errors after rebranding
 
 = 1.2.0 =
 * **MAJOR REBRANDING**: Now "LeadCrafter - Grand Slam Lead Magnets"
